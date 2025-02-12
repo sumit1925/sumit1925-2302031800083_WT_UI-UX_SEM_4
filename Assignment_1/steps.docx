@@ -1,0 +1,31 @@
+
+<-------------Step 1: Create a GitHub Repository------------->
+1. Go to GitHub and log in to your account.
+2. Click on the "+" icon in the top right corner and select "New repository".
+3. In the Repository name field, enter your enrollment number (e.g., 123456).
+4. Choose the repository's visibility:
+   - Public: Anyone can view the repository.
+   - Private: Only you and selected collaborators can access it.
+5. (Optional) Check "Add a README file" to include a default README.
+6. Click on "Create repository".
+
+
+<-------------Step 2: Clone the Repository Locally--------->
+1. Open a terminal or Git Bash and run:
+   git clone https://github.com/your-username/your-enrollment-number.git
+   cd your-enrollment-number
+
+
+
+<-------------Step 3: Create Folders------------->
+Run the following commands:
+   mkdir Assignment_1
+   mkdir Assignment_2
+   mkdir Assignment_3
+
+Step 4: Add Folder of Figma Design (StoryWeaver)
+
+Step 5: Add and Commit Changes
+   git add .
+   git commit -m "Added assign1 and assign3 folders"
+   git push origin main
